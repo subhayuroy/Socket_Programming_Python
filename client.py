@@ -1,7 +1,7 @@
 import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect((socket.gethostname(), 1025))   #1025 PPort number
+s.connect((socket.gethostname(), 1025))   #1025 Port number
 
 complete_info = ''
 
